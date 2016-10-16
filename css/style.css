@@ -6,12 +6,11 @@
 
 .text {
 	font-family: "Lora",serif;
-	font-weight: 200px;
 }
 
 .image {
-	width: 350px;
-	height: 250px;
+	width: 300px;
+	height: 224px;
 	overflow: hidden;
 }
 
@@ -21,60 +20,3 @@
 	font-weight: 100px;
 }
 
-@media screen and (max-width: 900px) {
-	.image {
-		width: 50%;
-		height: auto;
-	}
-}
-
-.top {
-
-	width: 1140px;
-	height: 330px;
-
-	}
-
-.bottom {
-	min-width: 1140px;
-	height: 330px;
-}
-
-.roll {
-  position:relative;
-  height:330px;
-  width:1140px;
-  margin:0 auto;
-}
-
-.roll img.top {
-  position:absolute;
-  /*left:0;*/
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  --transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-}
-
-@keyframes rollFadeInOut {
-  0% {
-  opacity:1;
-}
-45% {
-opacity:1;
-}
-55% {
-opacity:0;
-}
-100% {
-opacity:0;
-}
-}
-
-.roll img.top {
-animation-name: rollFadeInOut;
-animation-timing-function: ease-in-out;
-animation-iteration-count: infinite;
-animation-duration: 4s;
-animation-direction: alternate;
-}
