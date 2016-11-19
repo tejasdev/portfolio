@@ -1,3 +1,16 @@
+body {
+	background-image: url("../images/bgi2.jpg");
+}
+
+.color {
+
+	color: black;
+}
+
+.clr {
+ 	color: yellow;
+}
+
 .logo_text {
 	padding-top: 10px;
 	font-family: "Lora", serif;
@@ -9,6 +22,8 @@
 }
 
 .image {
+	border-radius: 4%;
+	border-color: rgb(#000000);
 	width: 300px;
 	height: 224px;
 	overflow: hidden;
